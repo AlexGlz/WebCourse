@@ -1,0 +1,109 @@
+body {
+	font-family: 'Quicksand', sans-serif;	
+	margin: 0px;
+	background-color: #f4f7f9;
+}
+
+h1 {
+	margin: 0px;
+}
+
+h2 {
+	margin: 20px 10%;
+}
+
+li {
+	margin: 5px 10%;
+}
+
+.listTitle{
+	margin-top: 20px;
+	margin-left: 25px;
+	padding-left: 10px;
+	font-weight: 900;
+	list-style-type: none;
+	font-size: 20px;
+	border-width: 0px 0px 0px 2px;
+	border-style: solid;	
+	border-color: #93beff;
+}
+
+.listSubTitle{
+	color: grey;
+	font-style: italic;
+	list-style-type: none;
+}
+
+#header {
+	color: white;
+	background-color: #6b6e72;
+	padding: 25px 90px;
+	border: 0px;
+	margin: 0px;
+	font-weight: 100;
+}
+
+#contact {
+	text-align: right;
+	vertical-align: bottom;
+}
+
+.column{
+	float: left;
+	width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#fotoPerfil{
+	height:250px;
+	margin: 50px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.star {
+	height: 25px;
+	background-image: url('../img/star.png');
+	background-repeat: repeat-x;
+	display: block;
+	background-size: 25px;
+}
+
+.one{
+	width: 25px;
+}
+
+.two{
+	width: 50px;
+}
+
+.three{
+	width: 75px;
+}
+
+.four{
+	width: 100px;
+}
+
+.circleText {
+	display: inline-block;
+	border-radius: 15px;
+	margin: 5px 8px;
+	border: 30px	;
+	padding: 5px 10px;
+	background-color:  #93beff;
+	height: 20px;
+	color:  #f4f7f9;
+}
+
+.logo{
+	width: 50px;
+	margin: 10px 10px;
+}
