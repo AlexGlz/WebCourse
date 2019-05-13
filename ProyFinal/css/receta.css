@@ -1,0 +1,142 @@
+
+h1#nombre{
+	color: purple;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#imgReceta {
+	margin: 0px 50px 0px 50px;
+	float: left;
+	height: 250px;
+	overflow: auto;
+  	position: relative;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  	border-radius: 10px;
+}
+
+header
+{
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+#content
+{
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    font-size: 13px;
+    line-height: 18px;
+    width: 60px;
+    font-style: normal;
+    background: #eec3b0;
+    border-radius: 3px 3px 0 0;
+    color: #333;
+    position: relative;
+    padding: 3px 0;
+    text-align: center;
+}
+
+
+td {
+    font-size: 12px;
+    line-height: 18px;
+    width: 60px;
+    font-style: normal;
+    background: #fceae3;
+    border-radius: 0 0 3px 3px;
+    position: relative;
+    padding: 3px 0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.icon{
+	vertical-align: center;
+	height: 35px;
+	padding-right: 30px;
+	display: inline-block;
+}
+
+#titleIngr{
+	float: left;
+	padding-left: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+	
+}
+
+h3{
+	padding-left: 30px;
+	color: #e88b93;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h4{
+	float: right;
+	padding-right: 30px;
+	color: #e88b93;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+ul li {
+  list-style: none; 
+}
+
+ul li::before {
+  color: #e88b93;  
+  content: "\2022"; 
+  padding-right: 20px; 
+  font-weight: bold;
+  /* Unicode of character to precede the list item */
+}
+
+ol li {
+  list-style: none; 
+}
+
+ol li::before {
+  color: #e88b93;  
+  content: "\2022"; 
+  padding-right: 20px; 
+  font-weight: bold;
+  /* Unicode of character to precede the list item */
+}
+
+
+ul, ol{
+	padding-left: 35px;
+	color: #e88b93;
+	margin: 0;
+}
+
+li{
+	padding-right: 50px;
+	padding-bottom: 10px;
+	color: black;
+	text-align: justify;
+  	text-justify: inter-word;
+  	font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+span{
+	vertical-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+	
+
+@keyframes colorchange
+{
+  0%   {background:  #BAFFC9;}
+  33%   {background:  #BAE1FF;}
+  66%  {background: #F1CBFF;}
+  100% {background:  #BAFFC9;}
+}
+ @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background:  #BAFFC9;}
+  33%   {background:  #BAE1FF;}
+  66%  {background: #F1CBFF;}
+  100% {background:  #BAFFC9;}
+}

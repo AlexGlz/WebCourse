@@ -1,0 +1,244 @@
+
+h2.rTitle{
+	display: inline-block;
+	color: #e88b93;
+}
+
+h4.rClasif{
+	display: inline-block;
+	float: right;
+	text-align: right;
+	color: grey;
+	font-style: italic;
+	padding-right: 20px;
+}
+
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	color: black;
+	animation: colorchange;
+	-webkit-animation: colorchange;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes colorchange
+    {
+      0%   {background:  #BAFFC9;}
+      33%   {background:  #BAE1FF;}
+      66%  {background: #F1CBFF;}
+      100% {background:  #BAFFC9;}
+    }
+     @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background:  #BAFFC9;}
+      33%   {background:  #BAE1FF;}
+      66%  {background: #F1CBFF;}
+      100% {background:  #BAFFC9;}
+    }
+
+
+#header{
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: purple;		
+	margin-left: auto;
+	margin-right: auto;
+	position: fixed;	
+	overflow: hidden;	
+	z-index: 1;
+}
+
+#headerContent{
+	padding-top: 20px
+}
+
+header{
+	margin: auto;
+	background-color: white;
+	width: 80%;
+	height: 300px;
+	border-radius: 10px;
+}
+
+#content{
+	width: 80%;
+	background-color: white;
+	margin : 30px auto 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 10px;
+}
+
+
+#rightSection{
+	float: right;
+	vertical-align: middle;
+}
+
+
+#hdContainer{
+	margin: 15px;
+	padding: 0;
+}
+
+img#logo{
+	height: 30px;
+	position: relative;
+	cursor: pointer;
+}
+
+img.previewImg {
+	margin: 0px 30px 0px 20px;
+	float: left;
+	height: 160px;
+	overflow: auto;
+  	position: relative;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  	border-radius: 10px;
+}
+
+#btnAddRecipe {
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin: 10px 0;
+  background: #a64bf4;
+  background: -webkit-linear-gradient(left, #bc93bc, #725b72);
+  border: none;
+  border-radius: 25px;
+  vertical-align: center;
+}
+
+#btnUser{
+	margin: 0 25px 0 30px;
+	border: none;
+	border-radius: 25px;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+	vertical-align: middle;
+	background-color: #bc93bc;
+}
+
+#btnUser>img{
+	height: 25px;
+	width: 23px;
+}
+
+#btnUser:hover{
+	background-color: #725b72;
+}
+
+#btnUser:active{
+}
+
+#btnLogIn{
+	vertical-align: middle;
+	height: 35px;
+	border-radius: 5px;
+	background-color: #bc93bc;
+	border: none;
+}
+
+#btnLogIn>img{
+	height: 25px;
+	width: 23px;
+	vertical-align: middle;
+}
+
+#btnLogIn:hover{
+	background-color: #725b72;
+}
+
+#btnLogOut{
+	height: 35px;
+	vertical-align: middle;	
+	border-radius: 5px;
+	background-color: #bc93bc;
+	border: none;
+
+}
+
+#btnLogOut:hover{
+	background-color: #725b72;
+}
+
+#btnLogOut>img{
+	height: 25px;
+	width: 23px;
+	vertical-align: middle;
+}
+
+*:focus{
+	outline: none;
+}
+
+
+#recipeHolder{
+	margin: auto;
+	margin-top: 20px;
+	width: 80%;
+	background-color: white;
+	padding: 20px 0 20px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+}
+
+
+
+#recipeHolder > li{
+	padding: 10px;
+	margin:  auto;
+	margin-bottom: 20px;
+	list-style-type: none;
+	height: 180px;
+	/*box-shadow: 5px 5px 3px grey;*/
+	background-color: #f2d8a7;
+	width: 90%;
+	border-radius: 10px;
+}
+
+.green{
+	color: green;
+}
+
+.orange{
+	color: orange;
+}
+
+.red{
+	color: red;
+}
+
+
+.btnContainer{ 
+	display: block;
+	width:30%;
+	margin: 0 auto 0 auto;
+	margin-bottom: 20px;
+}
+
+.btnMenu{
+	width: 33%;
+	height: 30px;
+	background-color: #f2d8a7;
+	border: none;
+	border-radius: 0 0 10px 10px;
+	cursor: pointer;
+}
+
+.btnMenu:hover{
+	background-color: #ccb996;
+}
+
+.btnMenu:active{
+}
